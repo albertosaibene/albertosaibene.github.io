@@ -138,3 +138,35 @@ footer {
     padding: 34px 0 42px 0;
   }
 }
+
+.profile {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.profile-photo-container {
+  text-align: center;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+@media (max-width: 800px) {
+  .profile {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-photo-container {
+    text-align: left;
+  }
+
+  .profile-photo {
+    max-width: 260px;
+  }
+}
