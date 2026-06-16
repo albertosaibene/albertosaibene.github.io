@@ -196,7 +196,7 @@ footer {
 @media (max-width: 800px) {
  .hero-with-logo {
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: space-between;
   gap: 48px;
   max-width: none;
