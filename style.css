@@ -194,16 +194,40 @@ footer {
 }
 
 @media (max-width: 800px) {
+ .hero-with-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  max-width: none;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 760px;
+}
+
+.hero-logo-container {
+  flex: 0 0 260px;
+  text-align: right;
+}
+
+.hero-logo {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+}
+
+/* Su schermi piccoli lo tiene comunque accanto, solo più compatto */
+@media (max-width: 800px) {
   .hero-with-logo {
-    grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 20px;
   }
 
   .hero-logo-container {
-    text-align: left;
+    flex: 0 0 120px;
   }
 
   .hero-logo {
-    max-width: 200px;
+    max-width: 120px;
   }
-}
