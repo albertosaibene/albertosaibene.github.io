@@ -170,3 +170,40 @@ footer {
     max-width: 260px;
   }
 }
+
+.hero-with-logo {
+  display: grid;
+  grid-template-columns: 1.6fr 0.8fr;
+  gap: 40px;
+  align-items: center;
+  max-width: none;
+}
+
+.hero-text {
+  max-width: 780px;
+}
+
+.hero-logo-container {
+  text-align: right;
+}
+
+.hero-logo {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .hero-with-logo {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .hero-logo-container {
+    text-align: left;
+  }
+
+  .hero-logo {
+    max-width: 200px;
+  }
+}
