@@ -489,4 +489,46 @@ margin-left: 0;
 }
 }
 
+  .simple-link-list {
+margin-top: 18px;
+}
+
+.simple-link-list p {
+margin: 0 0 8px 0;
+}
+
+.simple-link-list a,
+.contact-grid a {
+color: #1f2933;
+font-weight: 600;
+}
+
+.simple-link-list a:hover,
+.contact-grid a:hover {
+text-decoration: underline;
+}
+
+.contact-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 22px;
+margin-top: 22px;
+}
+
+.contact-grid article {
+background: #fafafa;
+border: 1px solid #e5e7eb;
+border-radius: 10px;
+padding: 22px;
+}
+
+.contact-grid article p:last-child {
+margin-bottom: 0;
+}
+
+.note h2 {
+margin-top: 0;
+}
+
+
   
