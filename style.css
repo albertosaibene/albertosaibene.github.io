@@ -532,3 +532,11 @@ margin-top: 0;
 
 
   
+.footer-smallprint {
+max-width: 900px;
+margin: 8px auto 0 auto;
+padding: 0 20px;
+font-size: 12px;
+line-height: 1.5;
+color: #6b7280;
+}
